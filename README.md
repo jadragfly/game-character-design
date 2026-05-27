@@ -1,6 +1,6 @@
 # game-design（TRAE Skill）
 
-这是可分发的 TRAE Skill 文件夹，里面包含 TRAE Agent 需要的全部内容来端到端生成一只 Codex pet。
+这是个游戏精灵生成技能。
 
 ## 一键安装
 
@@ -49,34 +49,7 @@ pip install -r requirements.txt
 | `scripts/pack_skill.py` | 把整个 skill 文件夹打包为 zip。 |
 | `scripts/build_layout_guides.py` | 重新生成 references/layout-guides/。 |
 
-## Demo 示例
 
-`demo/` 提供了一组真实生成结果，可直接用来判断当前 skill 的成品质量与交付形态。
-
-本示例角色是一只按“拉布布气质”做出明显差异化的原创像素 chibi 桌宠：奶油白主色、焦糖棕花纹、红围巾识别点，最终导出为 Codex pet 所需的 `pet.json` + `spritesheet.webp`（8 列 × 9 行）。
-
-### 流程截图
-
-![调研与文档生成流程](demo/1-%E8%B0%83%E6%9F%A5%E7%94%B5%E5%AD%90%E5%AE%A0%E7%89%A9%E4%BF%A1%E6%81%AF-%E7%94%9F%E6%88%90%E7%9B%B8%E5%85%B3%E6%96%87%E6%A1%A3.png)
-
-![MTC 模式直接生成宠物](demo/2-MTC-%E6%A8%A1%E5%BC%8F%E7%9B%B4%E6%8E%A5%E7%94%9F%E6%88%90%E7%94%B5%E5%AD%90%E5%AE%A0%E7%89%A9.png)
-
-配套录屏见：[MTC 生成内容展示视频](demo/MTC%E7%94%9F%E6%88%90%E5%86%85%E5%AE%B9%E5%B1%95%E7%A4%BA-%E7%89%9B%E7%9A%84.mov)
-
-### 动作总览
-
-![contact sheet](demo/contact-sheet.png)
-
-上面的 contact sheet 对应 9 行标准动作：`idle`、`waving`、`running-right`、`running-left`、`waiting`、`review`、`jumping`、`failed`、`happy`。从中可以快速检查 8 帧连贯性、角色 identity 是否漂移，以及红围巾、耳型、配色是否在全动作集中保持一致。
-
-### GIF 预览
-
-| 动作 | 预览 |
-|------|------|
-| `idle` | ![idle](demo/idle.gif) |
-| `waving` | ![waving](demo/waving.gif) |
-| `running-right` | ![running-right](demo/running-right.gif) |
-| `happy` | ![happy](demo/happy.gif) |
 
 实际验收时，建议先看 `contact-sheet.png` 做全局检查，再用这 4 个 GIF 确认关键动作的节奏、表情和 silhouette 是否稳定。
 
@@ -129,7 +102,7 @@ python scripts/render_qa.py      --run-dir ./run/smoke
 ![我方](img/contact-sheet.png)
 ![敌方](img/spritesheet.png)
 
-有时还生成物品
+有时还需要生成物品
 
 已知问题，如图：
 idle gif图有点左右移动，这个还算矫正过了，基本能用，我不知道怎么约束它位置统一了。 
