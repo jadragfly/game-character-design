@@ -1,4 +1,4 @@
-# game-design（TRAE Skill）
+# game-character-design（TRAE Skill）
 
 这是个游戏精灵生成技能。
 
@@ -6,9 +6,9 @@
 
 | 方式 | 命令 / 操作 |
 |------|------------|
-| **项目级** | `cp -r game-design <项目根>/.trae/skills/`，重启或刷新 TRAE Agent。 |
-| **全局级** | 国内版 `cp -r game-design ~/.trae-cn/skills/`；国际版 `cp -r game-design ~/.trae/skills/`。重启 TRAE 后自动索引。 |
-| **设置面板上传** | `python scripts/pack_skill.py` 打包出 `game-design.zip`，然后在 TRAE「设置 → 规则与技能 → 创建技能 → 上传」选择该 zip 即可。 |
+| **项目级** | `cp -r game-character-design <项目根>/.trae/skills/`，重启或刷新 TRAE Agent。 |
+| **全局级** | 国内版 `cp -r game-character-design ~/.trae-cn/skills/`；国际版 `cp -r game-character-design ~/.trae/skills/`。重启 TRAE 后自动索引。 |
+| **设置面板上传** | `python scripts/pack_skill.py` 打包出 `game-character-design.zip`，然后在 TRAE「设置 → 规则与技能 → 创建技能 → 上传」选择该 zip 即可。 |
 
 ## 一次性配置
 
@@ -105,8 +105,10 @@ python scripts/render_qa.py      --run-dir ./run/smoke
 有时还需要生成物品
 
 已知问题，如图：
-idle gif图有点左右移动，这个还算矫正过了，基本能用，我不知道怎么约束它位置统一了。 
+idle gif图有点左右移动，这个还算矫正过了，基本能用，我不知道怎么约束它位置统一了。
+ 
 向左走的gif图，明显角色做大了，没完全在框内，目前也还没想好怎么约束，还在按抽卡方式解决，感觉不好，叫ai再生成一次，直到大体满意。总体来说，运气好的话，就一两个动作不太顺眼。
+
 
 ### 参考项目和感谢
 
