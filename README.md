@@ -1,4 +1,4 @@
-# pet-design（TRAE Skill）
+# game-design（TRAE Skill）
 
 这是可分发的 TRAE Skill 文件夹，里面包含 TRAE Agent 需要的全部内容来端到端生成一只 Codex pet。
 
@@ -6,9 +6,9 @@
 
 | 方式 | 命令 / 操作 |
 |------|------------|
-| **项目级** | `cp -r pet-design <项目根>/.trae/skills/`，重启或刷新 TRAE Agent。 |
-| **全局级** | 国内版 `cp -r pet-design ~/.trae-cn/skills/`；国际版 `cp -r pet-design ~/.trae/skills/`。重启 TRAE 后自动索引。 |
-| **设置面板上传** | `python scripts/pack_skill.py` 打包出 `pet-design.zip`，然后在 TRAE「设置 → 规则与技能 → 创建技能 → 上传」选择该 zip 即可。 |
+| **项目级** | `cp -r game-design <项目根>/.trae/skills/`，重启或刷新 TRAE Agent。 |
+| **全局级** | 国内版 `cp -r game-design ~/.trae-cn/skills/`；国际版 `cp -r game-design ~/.trae/skills/`。重启 TRAE 后自动索引。 |
+| **设置面板上传** | `python scripts/pack_skill.py` 打包出 `game-design.zip`，然后在 TRAE「设置 → 规则与技能 → 创建技能 → 上传」选择该 zip 即可。 |
 
 ## 一次性配置
 
@@ -99,3 +99,44 @@ python scripts/render_qa.py      --run-dir ./run/smoke
 ## 真实跑
 
 把 `SEEDREAM_MOCK_EN` 取消导出，然后正确导出 `DOUBAO_API_KEY` 和 `DOUBAO_API_URL`，命令完全相同。
+
+
+
+### 依赖技能
+
+- [doubao-api](https://github.com/jadragfly/doubao-api) - 豆包 API 调用
+
+---
+
+## 生成结果预览（img/）
+
+
+
+![豆包生成的原始图](img/attack.png)
+![处理后的单帧图](img/attack_0.png)
+
+| 动作 GIF | 预览 |
+|----------|------|
+| idle | ![idle](img/idle.gif) |
+| attack | ![attack](img/attack.gif) |
+| crouch | ![crouch](img/crouch.gif) |
+| jump | ![jump](img/jump.gif) |
+| pickup | ![pickup](img/pickup.gif) |
+| walk-left | ![walk-left](img/walk-left.gif) |
+| walk-right | ![walk-right](img/walk-right.gif) |
+
+完整spritesheet：
+![我方](img/contact-sheet.png)
+![敌方](img/spritesheet.png)
+
+有时还生成物品
+
+已知问题，如图：
+idle gif图有点左右移动，这个还算矫正过了，基本能用，我不知道怎么约束它位置统一了。 
+向左走的gif图，明显角色做大了，没完全在框内，目前也还没想好怎么约束，还在按抽卡方式解决，感觉不好，叫ai再生成一次，直到大体满意。总体来说，运气好的话，就一两个动作不太顺眼。
+
+### 参考项目和感谢
+
+宠物设计：
+https://github.com/susirial/solo_com_pet_design
+
