@@ -1,0 +1,13 @@
+ACTION: idle - a calm breathing loop, the pet stands or sits in place, gently breathing.
+
+8-FRAME BREAKDOWN:
+Frame 0: neutral pose, body at rest position, eyes open, mouth neutral.
+Frame 1: body subtly inhales, slight rise (1-2 px feeling), shoulders/torso slightly higher.
+Frame 2: peak of inhale, body fully extended upward, chest a hair wider.
+Frame 3: starting to exhale, body settling.
+Frame 4: back at rest position, identical to frame 0 silhouette.
+Frame 5: tiny secondary motion - a slow blink begins (eyelids start lowering).
+Frame 6: blink fully closed.
+Frame 7: blink half-open, returning to rest.
+
+The motion is extremely subtle. Pose, palette, prop, and silhouette stay 99% identical across all 8 frames. This is the calm baseline animation.

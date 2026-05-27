@@ -1,0 +1,22 @@
+ACTION: attack - the character performs a punch/strike attack.
+
+8-FRAME BREAKDOWN:
+Frame 0: ready stance - body in fighting position, fist pulled back, body coiled for power.
+Frame 1: wind-up - arm beginning to extend backward, body rotating slightly away from attack direction.
+Frame 2: strike launch - arm thrusting forward rapidly, body rotating toward attack direction.
+Frame 3: impact - arm fully extended, body at maximum extension, fist at peak speed.
+Frame 4: follow-through - arm continuing past impact, body momentum carrying forward.
+Frame 5: recovery begin - arm starting to retract, body beginning to return to stance.
+Frame 6: mid-recovery - arm half retracted, body returning to ready position.
+Frame 7: back to ready - fist pulled back, body in original stance, ready for next attack.
+
+CHARACTER DIRECTION: Character faces [RIGHT/LEFT] and attacks in that direction.
+
+ATTACK STYLE OPTIONS:
+- punch: closed fist, arm extended
+- slash: open hand or sword, arc motion
+- strike: palm or heel, downward motion
+
+GAME CONTEXT: This attack is quick and decisive - fits a nimble platformer character. The attack should be readable in a single frame (frame 3 or 4).
+
+FORBIDDEN: No weapon trails. No impact stars or bursts on the character. No wind effects. The attack motion must be clean and readable.

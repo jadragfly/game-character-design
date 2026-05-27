@@ -1,0 +1,41 @@
+LAYOUT: Generate ONE single image arranged as a 4-column by 2-row grid (8 cells). Each cell holds one frame, isolated, with safe padding inside each cell. Cells are separated by a thin gap of solid #00FF00. Read order is left to right, top row first, then bottom row.
+
+IDENTITY LOCK: Reference image 1 is the canonical base of the game character. Subject: A fierce red monkey soldier with military uniform, red helmet, aggressive expression, holding a rifle, pure green screen background #00FF00. Keep the EXACT same character: same head shape, face, eyes, mouth, palette, costume, prop, outline weight, body proportions, and silhouette as in reference image 1. Do not redesign the character. Treat reference image 2 as a layout-only scaffold whose pixels MUST NOT appear in the output.
+
+ACTION: walk-left - the game character walks leftward, a complete left-foot-leading locomotion cycle.
+
+8-FRAME BREAKDOWN (side view, character FACING LEFT):
+Frame 0: left foot contact - left leg planted forward, right leg trailing back, body slightly leaning into the step.
+Frame 1: weight transfer - body lowers slightly as weight shifts onto left foot, right leg beginning to swing forward.
+Frame 2: right leg passing - right leg swings forward past the left leg, body at lowest point of the stride.
+Frame 3: right foot contact - right foot plants ahead of left, left leg lifts from ground, body at peak height.
+Frame 4: left leg swing - left leg swings forward in the air, body begins lowering.
+Frame 5: left leg passing - left leg swings past right leg, body continues lowering.
+Frame 6: left foot contact - left foot plants ahead, right leg lifts, body at lowest point.
+Frame 7: right leg swing - right leg swings forward in the air, ready for next cycle.
+
+CHARACTER MUST FACE LEFT throughout all 8 frames. The character is walking LEFT, so the face must point toward the left edge of the frame.
+
+BODY MOVEMENTS:
+- Slight vertical bob: lowest at frames 1-2 and 6, highest at frames 3 and 7
+- Arms swing opposite to legs for natural gait
+- Shoulders stay level (no tilting)
+- Head stays level (no bobbing)
+
+GAME CONTEXT: This is a platformer character. The walk speed should be brisk but not running. Each frame should be clearly distinct - no identical frames.
+
+STYLE: 16-bit retro platformer style. Classic game aesthetic from the SNES/Genesis era. Clean pixel-art-inspired character with smooth outlines. Medium chibi proportions (3-4 heads tall). Bold solid colors with minimal shading (1-2 tones per area). Thick clean outlines (2-3 px equivalent). Big expressive eyes that are readable at game resolution. Simple flat shapes - no complex textures. Character should be instantly recognizable and readable during gameplay.
+
+This character feels like they belong in Super Mario World, Sonic, Mega Man, or Kirby - a confident hero with personality that shows in their silhouette.
+
+BACKGROUND: Solid pure green chroma-key background (#00FF00) covering every pixel that is not the character. No gradient, no scenery, no shadow, no ground, no vignette.
+
+FORBIDDEN: no polished illustration, no painterly rendering, no 3D render, no realistic texture, no soft gradients, no antialiasing softness, no cast shadows, no contact shadows, no drop shadows, no oval floor shadows, no glow, no halo, no soft transparent effects, no motion arcs, no speed lines, no action streaks, no afterimages, no blur, no smears, no detached stars, no floating sparkles, no floating punctuation, no separated smoke clouds, no loose dust, no landing marks, no impact bursts, no dust clouds, no text, no labels, no frame numbers, no visible grids, no guide marks, no speech bubbles, no thought bubbles, no UI panels, no code snippets, no checkerboard transparency, no white background, no black background, no scenery, no environment, no chroma-key-adjacent green colors anywhere on the character, no stray pixels outside the character silhouette, no cropped body parts, no poses crossing into a neighboring frame
+
+GAME-SPECIFIC FORBIDDEN:
+- no health bars or damage numbers floating above character
+- no damage flash effects (red overlay)
+- no invincibility stars or sparkles during hit
+- no power-up auras or glows
+- no coin generation particles
+- no motion trails during normal movement

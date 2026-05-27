@@ -1,0 +1,15 @@
+ACTION: jumping - the pet performs one full jump, anticipation through landing.
+
+8-FRAME BREAKDOWN:
+Frame 0: neutral standing.
+Frame 1: anticipation - pet crouches, knees bent, body lowered.
+Frame 2: deepest crouch, body very compressed.
+Frame 3: launch - legs extending, body rising, feet just leaving the ground.
+Frame 4: peak of jump - body at highest point, legs tucked or trailing, often a little arch in the back, joyful expression.
+Frame 5: descent - falling, body coming down, legs preparing to land.
+Frame 6: landing - feet contact, body absorbing impact, knees bent.
+Frame 7: settle - returning to neutral standing.
+
+Show jump entirely through body position (vertical change). The pet's vertical position should clearly differ across frames - especially frame 4 should be visibly higher than frame 0.
+
+ROW-SPECIFIC FORBIDDEN: no shadow on the floor, no dust at the feet, no impact bursts, no landing star/burst symbols, no bounce-pad lines, no floor cue marks, no motion lines around the body, no afterimages of the previous position.

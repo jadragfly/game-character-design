@@ -1,0 +1,19 @@
+ACTION: hit - the character takes damage and reacts.
+
+8-FRAME BREAKDOWN:
+Frame 0: before impact - character in neutral state, unaware of incoming hit.
+Frame 1: impact moment - hit connects, body jolts in opposite direction, brief flash or stagger.
+Frame 2: recoil - body pushed back from impact, legs staggering, arms thrown up for defense.
+Frame 3: maximum recoil - body at furthest point from impact direction, stumbling.
+Frame 4: recovery start - body beginning to stabilize, legs trying to regain balance.
+Frame 5: mid recovery - standing more upright, still dazed.
+Frame 6: near recovery - almost back to normal stance, eyes refocusing.
+Frame 7: recovered - standing again, ready for action, may have different expression (determined/pain).
+
+CHARACTER DIRECTION: Character faces [RIGHT/LEFT]. The hit comes from the OPPOSITE direction.
+
+GAME CONTEXT: This is a damage reaction - the character is resilient and keeps fighting. Not overly dramatic or slow. Quick recovery is important for gameplay.
+
+EXPRESSION CHANGE: By frame 7, the character should look DETERMINED or ANGRY, not sad or defeated. This character doesn't give up easily.
+
+FORBIDDEN: No stars circling head. No exaggerated tears. No crying. No prolonged agony. The character recovers quickly and stays combat-ready.

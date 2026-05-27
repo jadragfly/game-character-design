@@ -1,0 +1,22 @@
+ACTION: idle - the game character stands in ready stance, alert and waiting for player input.
+
+8-FRAME BREAKDOWN (CRITICAL: Character must stay in EXACT same position, no horizontal movement):
+Frame 0: neutral standing, feet planted firmly in place, arms relaxed at sides, eyes forward, chin up.
+Frame 1: subtle breathing in, slight chest rise (1-2 px), shoulders lift minimally. Feet STAY in exact same position.
+Frame 2: peak of inhale, body extends very slightly upward (2-3 px max). Feet STAY planted.
+Frame 3: beginning to exhale, body settling down. Feet NEVER move from initial position.
+Frame 4: back at rest position, feet exactly where they started. Eyes blink once.
+Frame 5: eyes open again after blink. Body micro-adjustment - only vertical movement allowed (1 px up or down).
+Frame 6: slight chest expansion from breathing. NO weight shift left or right. Feet firmly planted.
+Frame 7: return to frame 0 position. Feet, arms, and body all return to EXACT starting coordinates.
+
+CRITICAL CONSTRAINTS:
+- Character's feet MUST stay in the exact same X/Y position across ALL 8 frames
+- NO weight shifting, NO side-to-side movement, NO leaning left or right
+- ONLY allowed movements: breathing (vertical chest movement), eye blinking, very subtle head tilt (max 2 px), micro vertical bob (1-2 px)
+- Arms should move minimally if at all - hanging at sides is fine
+- Character must look like a statue that is alive, not something shifting its weight
+
+CHARACTER DIRECTION: Character faces [RIGHT/LEFT] consistently throughout all frames. The entire character including feet must stay in the same horizontal position.
+
+GAME CONTEXT: This character is from a side-scrolling platformer game. The idle must convey awareness and readiness while staying perfectly planted on the ground.

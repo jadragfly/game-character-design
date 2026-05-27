@@ -1,0 +1,21 @@
+ACTION: walk-left - the game character walks leftward, a complete left-foot-leading locomotion cycle.
+
+8-FRAME BREAKDOWN (side view, character FACING LEFT):
+Frame 0: left foot contact - left leg planted forward, right leg trailing back, body slightly leaning into the step.
+Frame 1: weight transfer - body lowers slightly as weight shifts onto left foot, right leg beginning to swing forward.
+Frame 2: right leg passing - right leg swings forward past the left leg, body at lowest point of the stride.
+Frame 3: right foot contact - right foot plants ahead of left, left leg lifts from ground, body at peak height.
+Frame 4: left leg swing - left leg swings forward in the air, body begins lowering.
+Frame 5: left leg passing - left leg swings past right leg, body continues lowering.
+Frame 6: left foot contact - left foot plants ahead, right leg lifts, body at lowest point.
+Frame 7: right leg swing - right leg swings forward in the air, ready for next cycle.
+
+CHARACTER MUST FACE LEFT throughout all 8 frames. The character is walking LEFT, so the face must point toward the left edge of the frame.
+
+BODY MOVEMENTS:
+- Slight vertical bob: lowest at frames 1-2 and 6, highest at frames 3 and 7
+- Arms swing opposite to legs for natural gait
+- Shoulders stay level (no tilting)
+- Head stays level (no bobbing)
+
+GAME CONTEXT: This is a platformer character. The walk speed should be brisk but not running. Each frame should be clearly distinct - no identical frames.

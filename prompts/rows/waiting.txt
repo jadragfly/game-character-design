@@ -1,0 +1,15 @@
+ACTION: waiting - the pet patiently waits, mildly bored or curious, looking around.
+
+8-FRAME BREAKDOWN:
+Frame 0: neutral idle, looking forward.
+Frame 1: head tilts slightly to one side.
+Frame 2: head fully tilted, eyes glance same direction.
+Frame 3: head returns toward center.
+Frame 4: head tilts to the opposite side.
+Frame 5: head fully tilted, eyes glance opposite direction.
+Frame 6: head returns to center, slight shoulder shift, perhaps one paw raises a little.
+Frame 7: back to neutral, ready to loop.
+
+The pet stays in roughly the same position. Motion lives in the head, eyes, and one optional shoulder/paw shift. Mood is patient curiosity, not impatience.
+
+ROW-SPECIFIC FORBIDDEN: no clock symbols, no hourglass, no question marks, no thought bubbles, no zzz sleep symbols, no impatient foot tapping animation lines.

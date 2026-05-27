@@ -1,0 +1,3 @@
+STYLE: 16-bit retro platformer style. Classic game aesthetic from the SNES/Genesis era. Clean pixel-art-inspired character with smooth outlines. Medium chibi proportions (3-4 heads tall). Bold solid colors with minimal shading (1-2 tones per area). Thick clean outlines (2-3 px equivalent). Big expressive eyes that are readable at game resolution. Simple flat shapes - no complex textures. Character should be instantly recognizable and readable during gameplay.
+
+This character feels like they belong in Super Mario World, Sonic, Mega Man, or Kirby - a confident hero with personality that shows in their silhouette.

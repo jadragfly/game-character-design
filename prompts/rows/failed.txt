@@ -1,0 +1,15 @@
+ACTION: failed - the pet reacts to a failure: shocked, sad, dizzy, or disappointed. The reaction lasts 8 frames.
+
+8-FRAME BREAKDOWN:
+Frame 0: neutral standing.
+Frame 1: small startle - eyes widen, body recoils a tiny amount.
+Frame 2: bigger reaction - mouth opens in a small "oh no", body slumps slightly.
+Frame 3: full sad/dizzy expression - shoulders drop, head tilts down or wobbles.
+Frame 4: peak sad/dizzy - body lowest, eyes closed or X shaped via simple shape (NOT a literal red X), small attached tear allowed.
+Frame 5: starting to recover - head lifts a tiny bit.
+Frame 6: looking up, mood lifting, expression starting to neutralize.
+Frame 7: back near neutral, slight residual sadness, ready to loop.
+
+Allowed attached effects (only if they touch the silhouette directly): one small attached tear at the eye, a tiny attached smoke puff touching the head, or a tiny attached star next to the head. These must be opaque hard-edged pixel shapes the same style as the pet, not transparent or soft.
+
+ROW-SPECIFIC FORBIDDEN: no red X marks, no big floating "FAIL" or "ERROR" text, no separated tear droplets falling, no separated smoke clouds, no separated stars floating away, no skull symbols, no broken-heart symbols, no exclamation marks above the head.

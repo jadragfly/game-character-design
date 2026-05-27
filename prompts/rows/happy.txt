@@ -1,0 +1,15 @@
+ACTION: happy - the pet celebrates a success: cheerful little dance, arms up, smile, a small hop.
+
+8-FRAME BREAKDOWN:
+Frame 0: neutral standing, mouth starts smiling.
+Frame 1: small bounce up, both paws lifting from the sides.
+Frame 2: paws halfway raised, big smile on face.
+Frame 3: paws fully raised above the head in a small "yay" pose, body at peak hop height.
+Frame 4: paws still up, body coming down, eyes squinting in joy.
+Frame 5: paws lowering, body landing softly.
+Frame 6: paws back near the sides, big lingering smile.
+Frame 7: nearly neutral, smile fading toward calm, ready to loop.
+
+Show happiness through smile, paw lift, and hop. Eyes can become curved closed-smile shapes at the peak. Body position visibly higher in frames 2-4 than in frame 0.
+
+ROW-SPECIFIC FORBIDDEN: no confetti, no sparkles around the pet, no stars floating away, no exclamation marks, no "yay" text, no hearts, no music notes, no rainbow background, no contact shadow on the floor.

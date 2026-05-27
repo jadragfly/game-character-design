@@ -1,0 +1,101 @@
+# pet-design（TRAE Skill）
+
+这是可分发的 TRAE Skill 文件夹，里面包含 TRAE Agent 需要的全部内容来端到端生成一只 Codex pet。
+
+## 一键安装
+
+| 方式 | 命令 / 操作 |
+|------|------------|
+| **项目级** | `cp -r pet-design <项目根>/.trae/skills/`，重启或刷新 TRAE Agent。 |
+| **全局级** | 国内版 `cp -r pet-design ~/.trae-cn/skills/`；国际版 `cp -r pet-design ~/.trae/skills/`。重启 TRAE 后自动索引。 |
+| **设置面板上传** | `python scripts/pack_skill.py` 打包出 `pet-design.zip`，然后在 TRAE「设置 → 规则与技能 → 创建技能 → 上传」选择该 zip 即可。 |
+
+## 一次性配置
+
+技能通过 **Seedream 4.5（火山引擎 Volcano Engine）** 的豆包图像端点驱动图像生成。
+
+```bash
+export DOUBAO_API_KEY="your-doubao-api-key"
+export DOUBAO_API_URL="https://ark.cn-beijing.volces.com"
+
+# 可选：不用真实 API key 跑通整条流水线
+export SEEDREAM_MOCK_EN=true
+
+pip install -r requirements.txt
+```
+
+## 文件地图
+
+| 路径 | 用途 |
+|------|------|
+| `SKILL.md` | TRAE Skill 入口，Agent 第一时间读取。 |
+| `REFERENCE.md` | 详尽规范：图集尺寸、API、prompt 工程、错误码。 |
+| `EXAMPLES.md` | 四个端到端示例。 |
+| `demo/` | 真实生成案例、流程截图、contact sheet、GIF 与录屏。 |
+| `prompts/` | 风格、base、9 行动作的 prompt 模板。 |
+| `references/animation-rows.md` | 9 行动作矩阵。 |
+| `references/style-reference.md` | 视觉规范与 QA checklist。 |
+| `references/layout-guides/` | 每行的布局引导图，调用 Seedream 时附加为参考。 |
+| `scripts/seedream_client.py` | Seedream 4.5 / 豆包 API 适配器。 |
+| `scripts/prepare_run.py` | 初始化 run 目录。 |
+| `scripts/generate_base.py` | 生成 canonical-base.png。 |
+| `scripts/generate_row.py` | 生成单行或所有动作行。 |
+| `scripts/derive_running_left.py` | 镜像 running-right → running-left。 |
+| `scripts/extract_frames.py` | 把 decoded 输出切成 192x208 的帧。 |
+| `scripts/chroma_key.py` | 把 chroma key 背景替换为透明。 |
+| `scripts/compose_atlas.py` | 拼出 1536x1872 spritesheet。 |
+| `scripts/package_pet.py` | 输出 pet.json + spritesheet.webp 包。 |
+| `scripts/render_qa.py` | 出 contact sheet 与 GIF 预览。 |
+| `scripts/pack_skill.py` | 把整个 skill 文件夹打包为 zip。 |
+| `scripts/build_layout_guides.py` | 重新生成 references/layout-guides/。 |
+
+## Demo 示例
+
+`demo/` 提供了一组真实生成结果，可直接用来判断当前 skill 的成品质量与交付形态。
+
+本示例角色是一只按“拉布布气质”做出明显差异化的原创像素 chibi 桌宠：奶油白主色、焦糖棕花纹、红围巾识别点，最终导出为 Codex pet 所需的 `pet.json` + `spritesheet.webp`（8 列 × 9 行）。
+
+### 流程截图
+
+![调研与文档生成流程](demo/1-%E8%B0%83%E6%9F%A5%E7%94%B5%E5%AD%90%E5%AE%A0%E7%89%A9%E4%BF%A1%E6%81%AF-%E7%94%9F%E6%88%90%E7%9B%B8%E5%85%B3%E6%96%87%E6%A1%A3.png)
+
+![MTC 模式直接生成宠物](demo/2-MTC-%E6%A8%A1%E5%BC%8F%E7%9B%B4%E6%8E%A5%E7%94%9F%E6%88%90%E7%94%B5%E5%AD%90%E5%AE%A0%E7%89%A9.png)
+
+配套录屏见：[MTC 生成内容展示视频](demo/MTC%E7%94%9F%E6%88%90%E5%86%85%E5%AE%B9%E5%B1%95%E7%A4%BA-%E7%89%9B%E7%9A%84.mov)
+
+### 动作总览
+
+![contact sheet](demo/contact-sheet.png)
+
+上面的 contact sheet 对应 9 行标准动作：`idle`、`waving`、`running-right`、`running-left`、`waiting`、`review`、`jumping`、`failed`、`happy`。从中可以快速检查 8 帧连贯性、角色 identity 是否漂移，以及红围巾、耳型、配色是否在全动作集中保持一致。
+
+### GIF 预览
+
+| 动作 | 预览 |
+|------|------|
+| `idle` | ![idle](demo/idle.gif) |
+| `waving` | ![waving](demo/waving.gif) |
+| `running-right` | ![running-right](demo/running-right.gif) |
+| `happy` | ![happy](demo/happy.gif) |
+
+实际验收时，建议先看 `contact-sheet.png` 做全局检查，再用这 4 个 GIF 确认关键动作的节奏、表情和 silhouette 是否稳定。
+
+## 端到端 smoke test（不需要 API key）
+
+```bash
+export SEEDREAM_MOCK_EN=true
+python scripts/prepare_run.py --pet-name Smoke --description "test pet" --style codex-pixel --category Animals --output-dir ./run/smoke
+python scripts/generate_base.py --run-dir ./run/smoke
+python scripts/generate_row.py  --run-dir ./run/smoke --row all
+python scripts/extract_frames.py --run-dir ./run/smoke
+python scripts/chroma_key.py     --run-dir ./run/smoke
+python scripts/compose_atlas.py  --run-dir ./run/smoke
+python scripts/package_pet.py    --run-dir ./run/smoke --slug smoke--mock
+python scripts/render_qa.py      --run-dir ./run/smoke
+```
+
+`run/smoke/final/` 会得到从合成占位图构建的 `pet.json` 和 `spritesheet.webp`。
+
+## 真实跑
+
+把 `SEEDREAM_MOCK_EN` 取消导出，然后正确导出 `DOUBAO_API_KEY` 和 `DOUBAO_API_URL`，命令完全相同。

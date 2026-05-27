@@ -1,0 +1,19 @@
+ACTION: pickup - the character picks up an item from the ground.
+
+8-FRAME BREAKDOWN:
+Frame 0: standing - normal walking stance, item on ground ahead of character.
+Frame 1: approach - taking the final step toward the item, body beginning to lean forward.
+Frame 2: bend down - knees bending, body lowering, reaching hand extended toward item.
+Frame 3: grasp - hand touching item, fingers closing around it.
+Frame 4: lift - raising item, body starting to straighten.
+Frame 5: stand - rising to full height, item in hand.
+Frame 6: examine - brief look at item (optional head tilt).
+Frame 7: store/ready - item secured, character back in ready stance, ready to continue.
+
+CHARACTER DIRECTION: Character faces [RIGHT/LEFT] throughout the pickup.
+
+ITEM VISUAL: The item should be simple and readable - a coin, mushroom, power-up, or similar game item. Keep item design minimal.
+
+GAME CONTEXT: The pickup should be SNAPPY and GAME-LIKE. This is not a realistic reaching animation - it's stylized and quick, fitting the platformer aesthetic.
+
+FORBIDDEN: No exaggerated stretching. No slow-mo effect. No sparkles emanating from item. The item just sits there waiting to be picked up.

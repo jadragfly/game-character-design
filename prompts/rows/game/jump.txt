@@ -1,0 +1,19 @@
+ACTION: jump - the character performs a full jump with clear anticipation, launch, and landing.
+
+8-FRAME BREAKDOWN:
+Frame 0: standing ready - neutral standing pose, feet together, arms at sides.
+Frame 1: anticipation crouch - knees bent deeply, body lowered significantly, arms raised slightly for balance.
+Frame 2: launch - legs extending downward and pushing off the ground, body starting to rise, arms thrust upward.
+Frame 3: ascent - body rising quickly, legs fully extended below, arms raised high, slight forward lean.
+Frame 4: peak height - body at maximum height, legs tucked slightly or extended, body balanced.
+Frame 5: descent begins - body starting to fall, legs preparing to extend for landing, arms adjusting for balance.
+Frame 6: landing approach - legs extending downward, feet approaching ground, knees bending in anticipation.
+Frame 7: impact - feet contact ground, knees deeply bent to absorb impact, arms forward for balance, body at lowest point.
+
+CRITICAL: Frame 4 (peak) MUST be visibly higher than Frame 0. The character's vertical position changes significantly across frames.
+
+CHARACTER DIRECTION: Character faces [RIGHT/LEFT] consistently throughout jump.
+
+GAME CONTEXT: This is a platformer jump. The animation should feel snappy and responsive - the character is skilled and athletic. Jump should not be floaty or slow.
+
+FORBIDDEN: No shadow on the ground at any frame. No dust clouds. No motion lines around the body. No arms flailing wildly.

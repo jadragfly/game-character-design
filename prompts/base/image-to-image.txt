@@ -1,0 +1,15 @@
+TASK: Generate the canonical base portrait of a Codex digital pet, derived from the user reference (image 1).
+
+SUBJECT: {description}
+
+REFERENCE: Image 1 is the user's reference. Extract the character's identity (species, signature colors, distinctive features, prop, hairstyle if any). Then radically simplify into the Codex chibi style described below. Do NOT copy the reference's rendering, lighting, background, framing, or detail level — only the identity.
+
+{style_block}
+
+POSE: One single neutral idle pose, standing or sitting, facing the viewer, fully centered, full body visible with safe padding. Symmetrical pose. Eyes open. Mouth neutral or slight smile.
+
+BACKGROUND: Solid pure green chroma-key background (#00FF00). The entire background is one flat color. No gradients, no scenery, no shadows, no ground plane, no vignette.
+
+OUTPUT: One single image, square, the pet centered with comfortable margin.
+
+FORBIDDEN: {forbidden_block}

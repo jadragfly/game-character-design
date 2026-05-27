@@ -1,0 +1,21 @@
+ACTION: crouch - the character crouches down into a defensive or ready position.
+
+8-FRAME BREAKDOWN:
+Frame 0: standing - normal standing pose, full height.
+Frame 1: beginning to crouch - knees bending, body lowering, arms beginning to move.
+Frame 2: mid-crouch - body significantly lowered, knees deeply bent, arms positioned for balance or holding.
+Frame 3: full crouch - body at lowest point, knees at maximum bend, body compressed, looking alert.
+
+CRITICAL: The character height in frame 3 should be visibly lower than frame 0 - typically 50-70% of standing height.
+
+CHARACTER DIRECTION: Character faces [RIGHT/LEFT] consistently throughout.
+
+GAME CONTEXT: This crouch is used in platformers for:
+- Ducking under obstacles
+- Preparing for a ground attack
+- Taking cover
+- Charging power for special moves
+
+The character should look COORDINATED and READY, not like they fell down. The head stays up, eyes alert.
+
+FORBIDDEN: No sliding motion. No looking tired or exhausted. The character is in a READY stance, not resting.

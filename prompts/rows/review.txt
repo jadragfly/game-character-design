@@ -1,0 +1,15 @@
+ACTION: review - the pet is focused and reviewing something carefully (the diff, the code, the request). Concentration mode.
+
+8-FRAME BREAKDOWN:
+Frame 0: neutral standing/sitting, eyes forward.
+Frame 1: pet leans forward a tiny bit, eyes narrow slightly.
+Frame 2: leaning more, head tilts down a hair, peering closely.
+Frame 3: full peer pose - body forward, eyes very focused, mouth pursed.
+Frame 4: head tilts to the side as if cross-checking.
+Frame 5: head tilts the other side.
+Frame 6: pet sits back upright, eyes blink once (eyelids closed).
+Frame 7: eyes open, returning to neutral, mouth slight nod of understanding.
+
+Show concentration via lean, eye narrowing, head tilt, blink. The pet does not hold a magnifying glass or papers or code unless that prop is part of the base identity.
+
+ROW-SPECIFIC FORBIDDEN: no magnifying glass, no papers, no code text, no UI panels, no exclamation marks, no light bulbs, no question marks, no monocle, no symbol props.

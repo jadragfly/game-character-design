@@ -1,0 +1,39 @@
+LAYOUT: Generate ONE single image arranged as a 4-column by 2-row grid (8 cells). Each cell holds one frame, isolated, with safe padding inside each cell. Cells are separated by a thin gap of solid #00FF00. Read order is left to right, top row first, then bottom row.
+
+IDENTITY LOCK: Reference image 1 is the canonical base of the game character. Subject: A fierce red monkey soldier with military uniform, red helmet, aggressive expression, holding a rifle, pure green screen background #00FF00. Keep the EXACT same character: same head shape, face, eyes, mouth, palette, costume, prop, outline weight, body proportions, and silhouette as in reference image 1. Do not redesign the character. Treat reference image 2 as a layout-only scaffold whose pixels MUST NOT appear in the output.
+
+ACTION: jump - the character performs a full jump with clear anticipation, launch, and landing.
+
+8-FRAME BREAKDOWN:
+Frame 0: standing ready - neutral standing pose, feet together, arms at sides.
+Frame 1: anticipation crouch - knees bent deeply, body lowered significantly, arms raised slightly for balance.
+Frame 2: launch - legs extending downward and pushing off the ground, body starting to rise, arms thrust upward.
+Frame 3: ascent - body rising quickly, legs fully extended below, arms raised high, slight forward lean.
+Frame 4: peak height - body at maximum height, legs tucked slightly or extended, body balanced.
+Frame 5: descent begins - body starting to fall, legs preparing to extend for landing, arms adjusting for balance.
+Frame 6: landing approach - legs extending downward, feet approaching ground, knees bending in anticipation.
+Frame 7: impact - feet contact ground, knees deeply bent to absorb impact, arms forward for balance, body at lowest point.
+
+CRITICAL: Frame 4 (peak) MUST be visibly higher than Frame 0. The character's vertical position changes significantly across frames.
+
+CHARACTER DIRECTION: Character faces [RIGHT/LEFT] consistently throughout jump.
+
+GAME CONTEXT: This is a platformer jump. The animation should feel snappy and responsive - the character is skilled and athletic. Jump should not be floaty or slow.
+
+FORBIDDEN: No shadow on the ground at any frame. No dust clouds. No motion lines around the body. No arms flailing wildly.
+
+STYLE: 16-bit retro platformer style. Classic game aesthetic from the SNES/Genesis era. Clean pixel-art-inspired character with smooth outlines. Medium chibi proportions (3-4 heads tall). Bold solid colors with minimal shading (1-2 tones per area). Thick clean outlines (2-3 px equivalent). Big expressive eyes that are readable at game resolution. Simple flat shapes - no complex textures. Character should be instantly recognizable and readable during gameplay.
+
+This character feels like they belong in Super Mario World, Sonic, Mega Man, or Kirby - a confident hero with personality that shows in their silhouette.
+
+BACKGROUND: Solid pure green chroma-key background (#00FF00) covering every pixel that is not the character. No gradient, no scenery, no shadow, no ground, no vignette.
+
+FORBIDDEN: no polished illustration, no painterly rendering, no 3D render, no realistic texture, no soft gradients, no antialiasing softness, no cast shadows, no contact shadows, no drop shadows, no oval floor shadows, no glow, no halo, no soft transparent effects, no motion arcs, no speed lines, no action streaks, no afterimages, no blur, no smears, no detached stars, no floating sparkles, no floating punctuation, no separated smoke clouds, no loose dust, no landing marks, no impact bursts, no dust clouds, no text, no labels, no frame numbers, no visible grids, no guide marks, no speech bubbles, no thought bubbles, no UI panels, no code snippets, no checkerboard transparency, no white background, no black background, no scenery, no environment, no chroma-key-adjacent green colors anywhere on the character, no stray pixels outside the character silhouette, no cropped body parts, no poses crossing into a neighboring frame
+
+GAME-SPECIFIC FORBIDDEN:
+- no health bars or damage numbers floating above character
+- no damage flash effects (red overlay)
+- no invincibility stars or sparkles during hit
+- no power-up auras or glows
+- no coin generation particles
+- no motion trails during normal movement

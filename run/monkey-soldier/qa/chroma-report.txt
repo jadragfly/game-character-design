@@ -1,0 +1,69 @@
+QA Report for Monkey Soldier
+==================================================
+Animation Mode: game
+Game Type: platformer
+
+Frame Check Results:
+------------------------------
+  idle: 8/8 frames [OK]
+  walk-right: 8/8 frames [OK]
+  walk-left: 8/8 frames [OK]
+  jump: 8/8 frames [OK]
+  crouch: 8/8 frames [OK]
+  attack: 8/8 frames [OK]
+  pickup: 8/8 frames [OK]
+
+Edge Quality Check Results:
+--------------------------------------------------
+  idle: ✅ PASS
+    edge:    0.0% (non-transparent)
+    green:   0.0%
+    blue:    0.0%
+    white:   0.0%
+    black:   0.0%
+    total:   0.0%
+  walk-right: ✅ PASS
+    edge:    0.0% (non-transparent)
+    green:   0.0%
+    blue:    0.0%
+    white:   0.0%
+    black:   0.0%
+    total:   0.0%
+  walk-left: ✅ PASS
+    edge:    0.0% (non-transparent)
+    green:   0.0%
+    blue:    0.0%
+    white:   0.0%
+    black:   0.0%
+    total:   0.0%
+  jump: ✅ PASS
+    edge:    0.74% (non-transparent)
+    green:   0.0%
+    blue:    0.0%
+    white:   0.0%
+    black:   0.0%
+    total:   0.0%
+  crouch: ✅ PASS
+    edge:    0.0% (non-transparent)
+    green:   0.0%
+    blue:    0.0%
+    white:   0.0%
+    black:   0.0%
+    total:   0.0%
+  attack: ✅ PASS
+    edge:    0.0% (non-transparent)
+    green:   0.0%
+    blue:    0.0%
+    white:   0.0%
+    black:   0.0%
+    total:   0.0%
+  pickup: ✅ PASS
+    edge:    0.93% (non-transparent)
+    green:   0.0%
+    blue:    0.0%
+    white:   0.0%
+    black:   0.0%
+    total:   0.0%
+
+==================================================
+Overall: PASSED

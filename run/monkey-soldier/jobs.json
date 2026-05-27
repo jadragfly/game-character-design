@@ -1,0 +1,133 @@
+{
+  "animation_mode": "game",
+  "game_type": "platformer",
+  "character_name": "Monkey Soldier",
+  "slug": "monkey-soldier",
+  "description": "A fierce red monkey soldier with military uniform, red helmet, aggressive expression, holding a rifle, pure green screen background #00FF00",
+  "style": "platformer-16bit",
+  "category": "Platform Games",
+  "chroma_key": "#00FF00",
+  "chroma_tolerance": 30,
+  "user_references": [],
+  "jobs": {
+    "base": {
+      "status": "succeeded",
+      "mode": "grid",
+      "decoded": "D:\\impotent\\skills\\make_game\\game-character-design\\run\\monkey-soldier\\decoded\\base.png",
+      "error": null
+    },
+    "idle": {
+      "status": "succeeded",
+      "mode": "grid",
+      "decoded": "D:\\impotent\\skills\\make_game\\game-character-design\\run\\monkey-soldier\\decoded\\idle.png",
+      "error": null,
+      "frames": [
+        "D:\\impotent\\skills\\make_game\\game-character-design\\run\\monkey-soldier\\frames\\idle_0.png",
+        "D:\\impotent\\skills\\make_game\\game-character-design\\run\\monkey-soldier\\frames\\idle_1.png",
+        "D:\\impotent\\skills\\make_game\\game-character-design\\run\\monkey-soldier\\frames\\idle_2.png",
+        "D:\\impotent\\skills\\make_game\\game-character-design\\run\\monkey-soldier\\frames\\idle_3.png",
+        "D:\\impotent\\skills\\make_game\\game-character-design\\run\\monkey-soldier\\frames\\idle_4.png",
+        "D:\\impotent\\skills\\make_game\\game-character-design\\run\\monkey-soldier\\frames\\idle_5.png",
+        "D:\\impotent\\skills\\make_game\\game-character-design\\run\\monkey-soldier\\frames\\idle_6.png",
+        "D:\\impotent\\skills\\make_game\\game-character-design\\run\\monkey-soldier\\frames\\idle_7.png"
+      ]
+    },
+    "walk-right": {
+      "status": "succeeded",
+      "mode": "grid",
+      "decoded": "D:\\impotent\\skills\\make_game\\game-character-design\\run\\monkey-soldier\\decoded\\walk-right.png",
+      "error": null,
+      "frames": [
+        "D:\\impotent\\skills\\make_game\\game-character-design\\run\\monkey-soldier\\frames\\walk-right_0.png",
+        "D:\\impotent\\skills\\make_game\\game-character-design\\run\\monkey-soldier\\frames\\walk-right_1.png",
+        "D:\\impotent\\skills\\make_game\\game-character-design\\run\\monkey-soldier\\frames\\walk-right_2.png",
+        "D:\\impotent\\skills\\make_game\\game-character-design\\run\\monkey-soldier\\frames\\walk-right_3.png",
+        "D:\\impotent\\skills\\make_game\\game-character-design\\run\\monkey-soldier\\frames\\walk-right_4.png",
+        "D:\\impotent\\skills\\make_game\\game-character-design\\run\\monkey-soldier\\frames\\walk-right_5.png",
+        "D:\\impotent\\skills\\make_game\\game-character-design\\run\\monkey-soldier\\frames\\walk-right_6.png",
+        "D:\\impotent\\skills\\make_game\\game-character-design\\run\\monkey-soldier\\frames\\walk-right_7.png"
+      ]
+    },
+    "walk-left": {
+      "status": "succeeded",
+      "mode": "grid",
+      "decoded": "D:\\impotent\\skills\\make_game\\game-character-design\\run\\monkey-soldier\\decoded\\walk-left.png",
+      "error": null,
+      "derive_from_mirror": false,
+      "frames": [
+        "D:\\impotent\\skills\\make_game\\game-character-design\\run\\monkey-soldier\\frames\\walk-left_0.png",
+        "D:\\impotent\\skills\\make_game\\game-character-design\\run\\monkey-soldier\\frames\\walk-left_1.png",
+        "D:\\impotent\\skills\\make_game\\game-character-design\\run\\monkey-soldier\\frames\\walk-left_2.png",
+        "D:\\impotent\\skills\\make_game\\game-character-design\\run\\monkey-soldier\\frames\\walk-left_3.png",
+        "D:\\impotent\\skills\\make_game\\game-character-design\\run\\monkey-soldier\\frames\\walk-left_4.png",
+        "D:\\impotent\\skills\\make_game\\game-character-design\\run\\monkey-soldier\\frames\\walk-left_5.png",
+        "D:\\impotent\\skills\\make_game\\game-character-design\\run\\monkey-soldier\\frames\\walk-left_6.png",
+        "D:\\impotent\\skills\\make_game\\game-character-design\\run\\monkey-soldier\\frames\\walk-left_7.png"
+      ]
+    },
+    "jump": {
+      "status": "succeeded",
+      "mode": "grid",
+      "decoded": "D:\\impotent\\skills\\make_game\\game-character-design\\run\\monkey-soldier\\decoded\\jump.png",
+      "error": null,
+      "frames": [
+        "D:\\impotent\\skills\\make_game\\game-character-design\\run\\monkey-soldier\\frames\\jump_0.png",
+        "D:\\impotent\\skills\\make_game\\game-character-design\\run\\monkey-soldier\\frames\\jump_1.png",
+        "D:\\impotent\\skills\\make_game\\game-character-design\\run\\monkey-soldier\\frames\\jump_2.png",
+        "D:\\impotent\\skills\\make_game\\game-character-design\\run\\monkey-soldier\\frames\\jump_3.png",
+        "D:\\impotent\\skills\\make_game\\game-character-design\\run\\monkey-soldier\\frames\\jump_4.png",
+        "D:\\impotent\\skills\\make_game\\game-character-design\\run\\monkey-soldier\\frames\\jump_5.png",
+        "D:\\impotent\\skills\\make_game\\game-character-design\\run\\monkey-soldier\\frames\\jump_6.png",
+        "D:\\impotent\\skills\\make_game\\game-character-design\\run\\monkey-soldier\\frames\\jump_7.png"
+      ]
+    },
+    "crouch": {
+      "status": "succeeded",
+      "mode": "grid",
+      "decoded": "D:\\impotent\\skills\\make_game\\game-character-design\\run\\monkey-soldier\\decoded\\crouch.png",
+      "error": null,
+      "frames": [
+        "D:\\impotent\\skills\\make_game\\game-character-design\\run\\monkey-soldier\\frames\\crouch_0.png",
+        "D:\\impotent\\skills\\make_game\\game-character-design\\run\\monkey-soldier\\frames\\crouch_1.png",
+        "D:\\impotent\\skills\\make_game\\game-character-design\\run\\monkey-soldier\\frames\\crouch_2.png",
+        "D:\\impotent\\skills\\make_game\\game-character-design\\run\\monkey-soldier\\frames\\crouch_3.png",
+        "D:\\impotent\\skills\\make_game\\game-character-design\\run\\monkey-soldier\\frames\\crouch_4.png",
+        "D:\\impotent\\skills\\make_game\\game-character-design\\run\\monkey-soldier\\frames\\crouch_5.png",
+        "D:\\impotent\\skills\\make_game\\game-character-design\\run\\monkey-soldier\\frames\\crouch_6.png",
+        "D:\\impotent\\skills\\make_game\\game-character-design\\run\\monkey-soldier\\frames\\crouch_7.png"
+      ]
+    },
+    "attack": {
+      "status": "succeeded",
+      "mode": "grid",
+      "decoded": "D:\\impotent\\skills\\make_game\\game-character-design\\run\\monkey-soldier\\decoded\\attack.png",
+      "error": null,
+      "frames": [
+        "D:\\impotent\\skills\\make_game\\game-character-design\\run\\monkey-soldier\\frames\\attack_0.png",
+        "D:\\impotent\\skills\\make_game\\game-character-design\\run\\monkey-soldier\\frames\\attack_1.png",
+        "D:\\impotent\\skills\\make_game\\game-character-design\\run\\monkey-soldier\\frames\\attack_2.png",
+        "D:\\impotent\\skills\\make_game\\game-character-design\\run\\monkey-soldier\\frames\\attack_3.png",
+        "D:\\impotent\\skills\\make_game\\game-character-design\\run\\monkey-soldier\\frames\\attack_4.png",
+        "D:\\impotent\\skills\\make_game\\game-character-design\\run\\monkey-soldier\\frames\\attack_5.png",
+        "D:\\impotent\\skills\\make_game\\game-character-design\\run\\monkey-soldier\\frames\\attack_6.png",
+        "D:\\impotent\\skills\\make_game\\game-character-design\\run\\monkey-soldier\\frames\\attack_7.png"
+      ]
+    },
+    "pickup": {
+      "status": "succeeded",
+      "mode": "grid",
+      "decoded": "D:\\impotent\\skills\\make_game\\game-character-design\\run\\monkey-soldier\\decoded\\pickup.png",
+      "error": null,
+      "frames": [
+        "D:\\impotent\\skills\\make_game\\game-character-design\\run\\monkey-soldier\\frames\\pickup_0.png",
+        "D:\\impotent\\skills\\make_game\\game-character-design\\run\\monkey-soldier\\frames\\pickup_1.png",
+        "D:\\impotent\\skills\\make_game\\game-character-design\\run\\monkey-soldier\\frames\\pickup_2.png",
+        "D:\\impotent\\skills\\make_game\\game-character-design\\run\\monkey-soldier\\frames\\pickup_3.png",
+        "D:\\impotent\\skills\\make_game\\game-character-design\\run\\monkey-soldier\\frames\\pickup_4.png",
+        "D:\\impotent\\skills\\make_game\\game-character-design\\run\\monkey-soldier\\frames\\pickup_5.png",
+        "D:\\impotent\\skills\\make_game\\game-character-design\\run\\monkey-soldier\\frames\\pickup_6.png",
+        "D:\\impotent\\skills\\make_game\\game-character-design\\run\\monkey-soldier\\frames\\pickup_7.png"
+      ]
+    }
+  }
+}

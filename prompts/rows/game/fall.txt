@@ -1,0 +1,19 @@
+ACTION: fall - the character is falling from a height, transitioning from peak jump to landing.
+
+8-FRAME BREAKDOWN:
+Frame 0: peak of jump - body at maximum height, legs together, arms at sides.
+Frame 1: fall begins - body starts descending, legs begin separating, arms start spreading for balance.
+Frame 2: mid-fall - body descending rapidly, legs spread apart in preparation, arms extended to sides.
+Frame 3: accelerating fall - body continues descending, legs dangling below, arms fully extended outward for balance.
+Frame 4: near ground - body close to landing surface, legs extending downward, knees starting to bend for impact absorption.
+Frame 5: impact frame - feet about to touch ground, knees fully bent, arms thrust forward, body at lowest point before contact.
+Frame 6: contact - feet firmly on ground, knees deeply bent absorbing impact, arms thrown forward from momentum.
+Frame 7: recovery - standing up from the crouch, body rising to normal height, arms returning to sides.
+
+CRITICAL: This is the FALL animation separate from jump. Character should appear to be falling downward throughout frames 0-6.
+
+CHARACTER DIRECTION: Character faces [RIGHT/LEFT] consistently throughout.
+
+GAME CONTEXT: This animation plays when the character has no control and is falling. Could be used for pit falls, failed jump attempts, or intentional drops.
+
+FORBIDDEN: No shadow. No dust clouds. No screaming face expressions. No wild flailing - arms should have purpose for balance only.

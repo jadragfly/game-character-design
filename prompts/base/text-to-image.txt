@@ -1,0 +1,13 @@
+TASK: Generate the canonical base portrait of a Codex digital pet.
+
+SUBJECT: {description}
+
+{style_block}
+
+POSE: One single neutral idle pose, standing or sitting, facing the viewer, fully centered, full body visible with safe padding around all edges. Symmetrical pose. Eyes open. Mouth neutral or slight smile.
+
+BACKGROUND: Solid pure green chroma-key background (#00FF00). The entire background is one flat color. No gradients, no scenery, no shadows, no ground plane, no spotlight, no vignette, no checkerboard.
+
+OUTPUT: One single image, square, the pet centered with comfortable margin on all four sides.
+
+FORBIDDEN: {forbidden_block}

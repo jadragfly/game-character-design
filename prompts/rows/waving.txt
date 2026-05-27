@@ -1,0 +1,15 @@
+ACTION: waving - the pet raises one paw/hand and waves hello.
+
+8-FRAME BREAKDOWN:
+Frame 0: neutral idle, both paws/hands at the sides.
+Frame 1: one paw begins to lift, elbow bending.
+Frame 2: paw raised to mid-height, palm starting to open.
+Frame 3: paw fully raised above the shoulder, palm fully open, fingers spread.
+Frame 4: paw waved to one side (peak left of the wave arc).
+Frame 5: paw waved to the other side (peak right of the wave arc).
+Frame 6: paw waved back to center, still raised.
+Frame 7: paw lowering, returning to idle.
+
+Show the wave through paw position only. Eyes look friendly. Optional small mouth smile across the wave. The non-waving side stays calm.
+
+ROW-SPECIFIC FORBIDDEN: no wave marks, no motion arcs, no curved lines next to the paw, no sparkles, no stars, no exclamation marks, no "hi" text, no afterimages of the paw.

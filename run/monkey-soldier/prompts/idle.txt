@@ -1,0 +1,37 @@
+LAYOUT: Generate ONE single image arranged as a 4-column by 2-row grid (8 cells). Each cell holds one frame, isolated, with safe padding inside each cell. Cells are separated by a thin gap of solid #00FF00. Read order is left to right, top row first, then bottom row.
+
+IDENTITY LOCK: Reference image 1 is the canonical base of the game character. Subject: A fierce red monkey soldier with military uniform, red helmet, aggressive expression, holding a rifle, pure green screen background #00FF00. Keep the EXACT same character: same head shape, face, eyes, mouth, palette, costume, prop, outline weight, body proportions, and silhouette as in reference image 1. Do not redesign the character. Treat reference image 2 as a layout-only scaffold whose pixels MUST NOT appear in the output.
+
+ACTION: idle - the game character stands in ready stance, alert and waiting for player input.
+
+8-FRAME BREAKDOWN:
+Frame 0: neutral standing, feet shoulder-width apart, arms relaxed at sides, eyes forward.
+Frame 1: subtle breathing in, slight chest rise (1-2 px), shoulders lift minimally.
+Frame 2: peak of inhale, body fully extended upward.
+Frame 3: beginning to exhale, body settling down.
+Frame 4: back at rest position, identical to frame 0 silhouette.
+Frame 5: very subtle weight shift to the right leg.
+Frame 6: weight shift to the left leg.
+Frame 7: return to center, identical to frame 0, ready to loop.
+
+The character must maintain a READY stance - not slouching, not overly relaxed. This is a fighter waiting for action. Posture is straight, eyes focused forward. This animation is CRITICAL as it plays during most gameplay pauses.
+
+CHARACTER DIRECTION: Character faces [RIGHT/LEFT] consistently throughout all frames.
+
+GAME CONTEXT: This character is from a side-scrolling platformer game. The idle must convey awareness and readiness, not sleep or boredom.
+
+STYLE: 16-bit retro platformer style. Classic game aesthetic from the SNES/Genesis era. Clean pixel-art-inspired character with smooth outlines. Medium chibi proportions (3-4 heads tall). Bold solid colors with minimal shading (1-2 tones per area). Thick clean outlines (2-3 px equivalent). Big expressive eyes that are readable at game resolution. Simple flat shapes - no complex textures. Character should be instantly recognizable and readable during gameplay.
+
+This character feels like they belong in Super Mario World, Sonic, Mega Man, or Kirby - a confident hero with personality that shows in their silhouette.
+
+BACKGROUND: Solid pure green chroma-key background (#00FF00) covering every pixel that is not the character. No gradient, no scenery, no shadow, no ground, no vignette.
+
+FORBIDDEN: no polished illustration, no painterly rendering, no 3D render, no realistic texture, no soft gradients, no antialiasing softness, no cast shadows, no contact shadows, no drop shadows, no oval floor shadows, no glow, no halo, no soft transparent effects, no motion arcs, no speed lines, no action streaks, no afterimages, no blur, no smears, no detached stars, no floating sparkles, no floating punctuation, no separated smoke clouds, no loose dust, no landing marks, no impact bursts, no dust clouds, no text, no labels, no frame numbers, no visible grids, no guide marks, no speech bubbles, no thought bubbles, no UI panels, no code snippets, no checkerboard transparency, no white background, no black background, no scenery, no environment, no chroma-key-adjacent green colors anywhere on the character, no stray pixels outside the character silhouette, no cropped body parts, no poses crossing into a neighboring frame
+
+GAME-SPECIFIC FORBIDDEN:
+- no health bars or damage numbers floating above character
+- no damage flash effects (red overlay)
+- no invincibility stars or sparkles during hit
+- no power-up auras or glows
+- no coin generation particles
+- no motion trails during normal movement

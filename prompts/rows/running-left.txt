@@ -1,0 +1,15 @@
+ACTION: running-left - the pet runs facing leftward, a complete locomotion cycle.
+
+8-FRAME BREAKDOWN (a side-view run cycle, body facing left):
+Frame 0: contact - leading leg planted, trailing leg back, body slightly forward-leaning.
+Frame 1: down - body lowered, both legs bent, weight on leading leg.
+Frame 2: passing - trailing leg swinging forward past the body, leading leg pushing off.
+Frame 3: high point - body raised, trailing leg now forward and lifting, leading leg fully back.
+Frame 4: contact - new leading leg plants, body slightly leaning forward.
+Frame 5: down - body lowered, weight transfers.
+Frame 6: passing - legs cross past body again.
+Frame 7: high point - body raised, ready to loop back to frame 0.
+
+Every frame the pet faces LEFT (looking toward the left edge of the frame). For pets with one-sided markings, props, or asymmetric features, those features appear on the OPPOSITE side of the body compared to the running-right row (because the pet has turned around). Body silhouette and palette identical across all 8 frames.
+
+ROW-SPECIFIC FORBIDDEN: no speed lines, no dust clouds at the feet, no afterimages, no motion blur, no contact shadow on the floor, no impact bursts, no horizontal streaks.

@@ -1,0 +1,22 @@
+ACTION: shoot - the character fires a ranged weapon.
+
+8-FRAME BREAKDOWN:
+Frame 0: aim stance - weapon raised and aimed, body braced, preparing to fire.
+Frame 1: breath control - slight body tension increase, weapon steady, finger on trigger.
+Frame 2: firing - weapon recoils slightly, muzzle flash appears (simple), body jolts back minimally.
+Frame 3: peak recoil - weapon at maximum recoil position, muzzle flash fading.
+Frame 4: recovery begin - weapon returning to aim position.
+Frame 5: aim restored - weapon back in ready position, body stabilized.
+Frame 6: slight settle - body relaxing slightly back to stable stance.
+Frame 7: ready to fire again - identical to frame 0, perfect loop point.
+
+CHARACTER DIRECTION: Character faces [RIGHT/LEFT] and fires in that direction.
+
+WEAPON TYPES:
+- gun: pistol, rifle held with both hands
+- cannon: large weapon, more recoil
+- projectile: throwing, bow and arrow
+
+GAME CONTEXT: The muzzle flash should be minimal and integrated - a simple burst, not distracting. The weapon is PART of the character design.
+
+FORBIDDEN: No smoke trails. No bullet trails across frames. No elaborate muzzle flashes. No shell casings ejecting.

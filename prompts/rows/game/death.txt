@@ -1,0 +1,28 @@
+ACTION: death - the character is defeated.
+
+8-FRAME BREAKDOWN:
+Frame 0: before death - character standing, unaware or facing final blow.
+Frame 1: final hit - impact, body jolts backward.
+Frame 2: collapse start - legs giving out, body beginning to fall backward.
+Frame 3: falling - body fully airborne, tumbling backward.
+Frame 4: impact - back hits ground, slight bounce or ragdoll.
+Frame 5: on ground - body lying flat, motionless.
+Frame 6: fading - optional: character sprite becoming transparent or fading out.
+Frame 7: gone - character off-screen or faded.
+
+ALTERNATIVE DEATH STYLES:
+
+Style A - Quick defeat:
+Frame 0-3: hit reaction
+Frame 4-7: quick fade out, character stays where they fall
+
+Style B - Dramatic fall:
+More frames of tumbling, arms flailing during fall, larger bounce on impact.
+
+CHARACTER DIRECTION: Original facing direction (death typically happens in place).
+
+GAME CONTEXT: Death animations in platformers are usually brief. The character respawns quickly, so this animation shouldn't be too dramatic. Quick and readable is best.
+
+FORBIDDEN: No blood. No gore. No disturbing imagery. This is a family-friendly platformer. Keep it light - the character simply gets defeated and fades.
+
+EXPRESSION: Frames 4-7 should show minimal expression - the character is simply no longer active. Not pain, not sorrow, just... not there anymore.
